@@ -70,11 +70,11 @@ def DCR_admin():
                 return
             
             if dc.get()==" ":
-                messagebox.showwarning("Input Error","Select a course package from option")
+                messagebox.showwarning("Input Error","Select a course package from option.")
                 return
              
             if tc.get() == " ":
-                messagebox.showwarning("Input Error","Select time shift from option")
+                messagebox.showwarning("Input Error","Select time shift from option.")
                 return
             
             if not seat.get():
